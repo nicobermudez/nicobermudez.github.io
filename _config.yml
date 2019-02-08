@@ -1,11 +1,11 @@
 # Site settings
 author: Nicolas Bermudez
-title: 
+title: The Adventure's of Nico and Code
 header-img: img/home-bg.png
 email: bermnicolas@gmail.com
 copyright_name: Nicolas Bermudez
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Join me through my adventures with coding
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  nicobermudez
