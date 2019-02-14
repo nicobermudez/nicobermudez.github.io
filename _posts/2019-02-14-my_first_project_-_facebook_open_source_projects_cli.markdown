@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My First Project - Facebook Open Source Projects CLI"
-date:       2019-02-14 21:16:28 +0000
+date:       2019-02-14 16:16:28 -0500
 permalink:  my_first_project_-_facebook_open_source_projects_cli
 ---
 
@@ -17,7 +17,7 @@ In your terminal, under the folder you would like your gem under, type bundle ge
 
 Being new to all of this, this step seemed the most annoying. But having completed the project, I can now tell you that this might be the most important step, so that you can run your project and continously test with no problems. Your environment is where you will "require" or "require_relative" so that your files are all connected and can use each other. Your gemspec is where you will add your dependencies and most importantly where you will get a bit more technical with the actual gem so that you're able to publish it smoothly and don't have any errors raised.
 
-**Step 3: Map out your program in basic English
+**Step 3: Map out your program in basic English**
 
 I think this is a very overlooked step. At least for me, it helps so much to have a sketch or something to build off of before I start coding. I like to make my vision physical so that I don't miss anything and keep myself organized. 
 
