@@ -1,13 +1,14 @@
 ---
 layout: post
 title:      "Spice up your Rails application with JavaScript"
-date:       2019-04-23 20:20:18 +0000
+date:       2019-04-23 16:20:19 -0400
 permalink:  spice_up_your_rails_application_with_javascript
 ---
 
+JavaScript is within the Top 5 programming languages to learn, mostly because of its flexibility. Any Rails application can benefit tremendously from using JavaScript, adding to the user experience. Today, I'll be walking you through how to add some flexibility into your existing Rails application using JavaScript and jQuery. 
 
 ### Set up your dependencies 
-First htings first, set up your existing rails app with the proper gems needed. In your gemfile, add in the ActiveModel Serializer gem, and either jQuery or rails_ujs. 
+First things first, set up your existing rails app with the proper gems needed. In your gemfile, add in the ActiveModel Serializer gem, and either jQuery or rails_ujs. 
 
 ```
 gem ‘jquery-rails’ 
@@ -62,6 +63,7 @@ def index
 end
 ```
 
+Congrats! You've set up an internal API for you to use, from here, I recommend starting by using ajax to render lists and items directly on the page without having to refresh the entire webpage. You now have an incredible user interface for your app!
 
 
 
