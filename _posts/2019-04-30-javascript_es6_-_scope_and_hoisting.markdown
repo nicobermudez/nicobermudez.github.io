@@ -1,14 +1,11 @@
 ---
 layout: post
 title:      "JavaScript ES6 - Scope and Hoisting"
-date:       2019-04-30 18:04:01 +0000
+date:       2019-04-30 14:04:02 -0400
 permalink:  javascript_es6_-_scope_and_hoisting
 ---
 
-
-Write a blog about JavaScript. Specifically, imagine you want to tell a beginner JS developer about scope and hoisting, and how ES6 syntaxes affect behavior regarding these concepts. Give an overview of these topics with some examples. The blog does not need to be really long. It should be a good tool for someone starting to write JS, a reference that introduces scope and hoisting such that a reader has a good initial understanding. Here are some questions the blog should answer: - What is "hoisting" in JS? - What is "scope" in JS? - How do ES6 syntaxes such as `let` and `const` affect hoisting and scope, compared to `var`?
-
-ES6 is truly a beautiful update compared to ES5, but for some,  it can be a bit confusing to think about some of the new features, including how scope has changed with the addition of let and const, and hoisting. For people new to the coding world, these ideas can seem scary, but broken down into plain English, it's really simple.
+ES6 is truly a beautiful update compared to ES5, but for some,  it can be a bit confusing to think about some of the new features, including how scope and hoisting has changed with the addition of let and const. For people new to the coding world, these ideas can seem scary, but broken down into plain English, it's really simple.
 
 ### Let's start with scope. What is scope?
 
