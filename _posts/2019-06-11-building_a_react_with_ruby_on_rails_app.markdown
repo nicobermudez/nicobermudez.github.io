@@ -51,9 +51,73 @@ Run ```create react-app``` wherever you want your React app to be. From here, I 
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
+  }
 	```
 	
 	Simply change your PORT to 3001 or whatever you want, and you're ready to go. 
+	
+	Now, you're going to create your Components within React.
+	
+	```
+import React, { Component } from 'react';
+import './App.css';
+import UsersContainer from './components/UsersContainer';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+        </header>
+        <UsersContainer />
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+
+```
+import React, { Component } from 'react';
+
+class UsersContainer extends Component {
+   state = {
+	    users: []
+   }
+
+    render() {
+        return (
+            <div className="Users-container">
+                Users
+            </div>
+        )
+    }
+}
+
+export default UsersContainer;
+```
+
+Great! Now you have a very basic React app. Now let's connnect this with our Rails API in order to fill up our app with Users.
+
+To simplify things, within our componentDidMount() of our Users Component, we will fetch the users from our backend and add them into our Users Component.
+
+```
+componentWillMount() {
+   fetch("http:localhost:3000", {
+	    headers: {
+			   "Content-Type": "application/json"
+		}
+		   .then(response => response.json())
+			 .then(data => this.setState({
+			    users: data.users
+		 })
+}
+```
+
+Boom! Now you'll have access to users within your local state!
+
+And with that, you have created a basic React app with a Rails back-end! I hope this was helpful, please leave any comments if you have any questinons, suggestions, or feedback.
+
 
 
