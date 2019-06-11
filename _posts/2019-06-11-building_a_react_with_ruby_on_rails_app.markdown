@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Building a React with Ruby on Rails app"
-date:       2019-06-11 17:39:22 +0000
+date:       2019-06-11 13:39:23 -0400
 permalink:  building_a_react_with_ruby_on_rails_app
 ---
 
